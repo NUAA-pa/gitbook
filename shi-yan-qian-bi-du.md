@@ -23,6 +23,12 @@
 
 ## 官方手册
 
+* Intel 80386 Programmer's Reference Manual (人手一本的i386手册)
+* GCC 6.3.0 Manual
+* GDB User Manual
+* GNU Make Manual
+* System V ABI for i386
+* On-line Manual Pager (即man, 这里有一个入门教程)
 
 ## GNU/Linux入门
 
