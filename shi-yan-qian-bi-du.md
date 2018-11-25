@@ -23,12 +23,14 @@
 
 ## 官方手册
 
+很多时候，你需要仔细阅读官方手册，以获得你想要获得的信息和答案。一个良好的开发生态环境中，文档是不可或缺的一部分，而作为一个合格的开发者，你需要的是养成阅读手册的良好习惯。以下列出了部分在本实验中可能会用到的
+
 * Intel 80386 Programmer's Reference Manual (人手一本的i386手册)
 * GCC 6.3.0 Manual
 * GDB User Manual
 * GNU Make Manual
 * System V ABI for i386
-* On-line Manual Pager (即man, 这里有一个入门教程)
+* On-line Manual Pager (即`man`)
 
 ## GNU/Linux入门
 
