@@ -1,6 +1,6 @@
 # Lecture for NUAA PA2019
 
-This lecture is organized based on the 2017 version published by NJU. The link to original text is given at the end, we appreciate it that Ms. Yuan Chunfeng and Mr. Yu Zihao from NJU who had given us a lot of help during our project.
+This lecture is reorganized based on the 2017 version published by NJU. The link to original text is given at the end, we appreciate it that Ms. Yuan Chunfeng and Mr. Yu Zihao from NJU who had given us a lot of help during our project.
 
 # 南京航空航天大学2019年计算机组成原理课程设计讲义
 
