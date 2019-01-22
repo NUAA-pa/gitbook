@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [实验前必读](shi-yan-qian-bi-du.md)
-* [PA0 - 开发环境配置](pa0/PA0.md)
+* [PA0 - 开发环境配置](pa0/README.md)
     * [PA0.1](pa0/0.1.md)
     * [PA0.2](pa0/0.2.md)
     * [PA0.3](pa0/0.3.md)
