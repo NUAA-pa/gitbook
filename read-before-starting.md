@@ -95,7 +95,7 @@ PA 在南航生根已有四载，如今将迎来第五个年头。同学们可�
 
 ## 关于实验报告
 
-[请点击这里阅读实验报告的具体要求](others/submit-requirement)。
+[请点击这里阅读实验报告的具体要求](others/submit-requirement.md)。
 
 ## 来自助教组的一些鸡汤
 
