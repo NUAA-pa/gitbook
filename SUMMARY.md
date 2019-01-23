@@ -13,7 +13,6 @@
 * [杂项](others/README.md)
     * [实验提交要求](others/submit-requirement.md)
     * [Linux 入门教程](others/linux-manual.md)
-    * [vim 入门教程](others/vim-manual.md)
     * [Markdown 入门教程](others/markdown-manual.md)
     * [git 入门教程](others/git-manual.md)
     * [man 入门教程](others/man-manual.md)
