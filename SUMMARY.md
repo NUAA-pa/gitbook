@@ -12,8 +12,12 @@
     * [0.7 Acquiring Source Code for PAs](pa0/0.7.md)
 * [杂项](others/README.md)
     * [实验提交要求](others/submit-requirement.md)
+    * [Git 入门教程](others/git-manual.md)
     * [Linux 入门教程](others/linux-manual.md)
+    * [Man 入门教程](others/man-manual.md)
     * [Markdown 入门教程](others/markdown-manual.md)
-    * [git 入门教程](others/git-manual.md)
-    * [man 入门教程](others/man-manual.md)
+    
+    
+    
+    
 
