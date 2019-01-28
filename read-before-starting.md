@@ -37,7 +37,7 @@
 * [GNU Make Manual](https://www.gnu.org/software/make/manual/make.html)
 * Online Manual Pager (即 `man`)
 
-当你无法在手册中找到答案的时候，或者对手册内容抱有疑问的时候，请你再去向搜索引擎提问。
+当你无法在手册中找到答案的时候，或者对手册内容抱有疑问的时候，当你决定向他人寻求帮助之前，请你务必**学会使用向搜索引擎提问**。
 
 ## GNU/Linux 入门
 
