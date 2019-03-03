@@ -1,13 +1,39 @@
-# 南京航空航天大学 2019 年计算机组成原理课程设计II
+# PA2 - 简单复杂的机器: 冯诺依曼计算机系统
 
-## 版权声明
+# 序言
 
-本讲义由南京航空航天大学计算机科学技术学院计算机组成原理课程设计助教组编写，指导老师为陈丹老师和李博涵老师，适用于南京航空航天大学计算机科学与技术学院开设的《计算机组成原理课程设计II》。本讲义的编撰工作经南京大学余子濠老师授权，基于南京大学计算机科学与技术系PA实验2017版本讲义写成，所有原文引用均标明出处。南京航空航天大学计算机科学与技术学院保留本版本所有权利，任何人或组织未经许可，严禁用于非教学以外的其他用途。
+> 先驱已经创造了图灵机。但区区几个数字电路模块搭成的如此简单的机器，又能做些什么呢？先驱说,，一切无限的可能，都蕴含其中。
 
-## 讲义说明
 
-本讲义为南京航空航天大学2019年春季学期计算机组成原理课程设计使用，选修本课程的学生应严格按照本版本讲义进行课程设计，根据非本版本以外的任何版本完成的课程设计任务均视为无效。请各位同学认真阅读讲义，完成课程设计。
 
-# Lecture for NUAA PA2019
+在进行本次PA前，请在工程目录下执行以下命令建立新分支，否则将影响你的成绩：
 
-This lecture is reorganized based on the 2017 version published by Nanjing University. We appreciated it that Mrs. Yuan Chunfeng and Mr. Yu Zihao from NJU  had given us a lot of help during our project, you may find the original text [here](https://nju-ics.gitbooks.io/ics2017-programming-assignment/content/).
+```
+git	commit --allow-empty -am "before starting pa2" 
+//git	checkout master 
+//git	merge	pa0 
+git	checkout -b	pa2
+```
+
+ 
+
+{% panel style="danger", title="实验提交要求" %}
+
+**实验预计耗时**：40 小时
+
+**截止时间**：待定
+
+- 阶段1：编写基本指令，在NEMU中运行第一个C程序`dummy`- 
+- 阶段2：实现更多的指令, 在NEMU中运行所有`cputests`
+- 最后阶段：待补充
+
+**提交说明**：[见这里](https://www.jinhangdev.cn/ics/text/others/submit-requirement.html)
+
+{% endpanel %}
+
+
+
+本章内容初次学习可能有些难度，但也是PA中至关重要的一环。在本章你可能需要多次反复详细阅读理解讲义和PA代码，不断进行调试运行来完成实验。希望同学们能够沉下心来，结合理论课内容，努力把相关代码和讲义看懂，并完成本章实验任务。如果在编写指令中有任何的问题，请查阅**i386手册**及**i386手册勘误**。
+
+
+
