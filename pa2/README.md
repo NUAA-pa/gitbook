@@ -23,7 +23,7 @@ git	checkout -b	pa2
 
 **截止时间**：待定
 
-- 阶段1：编写基本指令，在NEMU中运行第一个C程序`dummy`- 
+- 阶段1：编写基本指令，在NEMU中运行第一个C程序`dummy`
 - 阶段2：实现更多的指令, 在NEMU中运行所有`cputests`
 - 最后阶段：待补充
 
