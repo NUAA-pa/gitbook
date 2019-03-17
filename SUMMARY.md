@@ -21,8 +21,4 @@
     * [Linux 入门教程](others/linux-manual.md)
     * [Man 入门教程](others/man-manual.md)
     * [Markdown 入门教程](others/markdown-manual.md)
-
     
-
-    
-
