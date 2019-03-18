@@ -11,7 +11,7 @@
     * [0.6 Logging in and Transferring Files via SSH](pa0/0.6.md)
     * [0.7 Acquiring Source Code for PAs](pa0/0.7.md)
 * [PA1 - 最简单的计算机](pa1/README.md)
-    * [1.1 简易调试器](pa1/1.1)
+    * [1.1 简易调试器](pa1/1.1.md)
 * [杂项](others/README.md)
     * [实验提交要求](others/submit-requirement.md)
     * [Git 入门教程](others/git-manual.md)
