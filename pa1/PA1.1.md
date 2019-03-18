@@ -109,7 +109,7 @@ ics2017
 ├──	Makefile			#	用于工程打包提交 
 ├──	nanos-lite			#	微型操作系统内核
 ├──	navy-apps			#	应用程序集
-├──	nemu			    #	NEMU
+├──	nemu				#	NEMU
 └──	nexus-am			#	抽象计算机
 ```
 
@@ -128,44 +128,44 @@ ics2017
 
 ```
 nemu
-├── include							#	存放全局使用的头文件 
-|	├── common.h					#	公用的头文件 
+├── include                         #   存放全局使用的头文件 
+|	├── common.h                    #   公用的头文件 
 |	├── cpu
-|	|	├── decode.h				#	译码相关
-|	|	├── exec.h					#	执行相关 
-|	|	├── reg.h					#	寄存器结构体的定义 
-|	|	└── rtl.h					#	RTL指令 
-|	├── debug.h						#	一些方便调试用的宏 
-|	├── device						#	设备相关 
-|	├── macro.h						#	一些方便的宏定义 
-|	├── memory						#	访问内存相关 
+|	|	├── decode.h                #   译码相关
+|	|	├── exec.h                  #   执行相关 
+|	|	├── reg.h                   #   寄存器结构体的定义 
+|	|	└── rtl.h                   #   RTL指令 
+|	├── debug.h                     #   一些方便调试用的宏 
+|	├── device                      #   设备相关 
+|	├── macro.h                     #   一些方便的宏定义 
+|	├── memory                      #   访问内存相关 
 |	├── monitor
 |	|	├── expr.h
 |	|	├── monitor.h
-|	|	└── watchpoint.h			#	监视点相关 
+|	|	└── watchpoint.h            #   监视点相关 
 |	└── nemu.h
-├── Makefile						#	指示NEMU的编译和链接 
-├── Makefile.git					#	git版本控制相关 
-├── runall.sh						#	一键测试脚本 
-└── src								#	源文件
+├── Makefile                        #   指示NEMU的编译和链接 
+├── Makefile.git                    #   git版本控制相关 
+├── runall.sh                       #   一键测试脚本 
+└── src                             #   源文件
 	├── cpu
-	|	├── decode					#	译码相关
-	|	├── exec					#	执行相关 
-	|	├── intr.c					#	中断处理相关
-	|	└── reg.c					#	寄存器相关	
-	├── device						#	设备相关
+	|	├── decode                  #   译码相关
+	|	├── exec                    #   执行相关 
+	|	├── intr.c                  #   中断处理相关
+	|	└── reg.c                   #   寄存器相关	
+	├── device                      #   设备相关
 	├── main.c						
 	├── memory
 	|	└── memory.c
 	├── misc
-	|	└── logo.c					#	"i386"的logo
+	|	└── logo.c                  #   "i386"的logo
 	└── monitor
-		├── cpu-exec.c				#	指令执行的主循环
+		├── cpu-exec.c              #   指令执行的主循环
 		├── diff-test
-		├── debug					#	简易调试器相关
-		|	├── expr.c				#	表达式求值的实现
-		|	├── ui.c				#	用户界面相关	
-		|	└── watchpoint.c		#	监视点的实现
+		├── debug                   #   简易调试器相关
+		|	├── expr.c              #   表达式求值的实现
+		|	├── ui.c                #   用户界面相关	
+		|	└── watchpoint.c        #   监视点的实现
 		└── monitor.c
 ```
 
@@ -180,7 +180,7 @@ nemu
 前面我们提到，实现 TRM ，离不开寄存器。为了兼容 x86 ，我们选择了一个稍微有点复杂的寄存器结构：
 
 ```
-	  31							  16 15 		    8 7 		      0   
+       31                                16 15              8 7               0   
        +-----------------+-----------------+-----------------+----------------+
 EAX    |                                   |        AH     (A|X)         AL   |	 累加器
        +-----------------+-----------------+-----------------+----------------+
@@ -233,7 +233,7 @@ EFLAGS |                                   |               FLAGS              | 
 3. 接下来调用`restart()`函数(在`nemu/src/monitor/monitor.c`中定义)，它模拟了"计算机启动"的功能，进行一些和"计算机启动"相关的初始化工作，一个重要的工作就是将`%eip`的初值设置为刚才我们约定的内存位置`0x100000`，这样就可以让 CPU 从我们约定的内存位置开始执行程序了。这时内存的布局如下：
 
    ```
-   0				 0x100000
+   0                0x100000
    -------------------------------------------
    |                   |                     |
    |                   |     guest prog      |
