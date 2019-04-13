@@ -20,4 +20,5 @@
     * [Linux 入门教程](others/linux-manual.md)
     * [Man 入门教程](others/man-manual.md)
     * [Markdown 入门教程](others/markdown-manual.md)
+    * [软件推荐](others/software-suggest.md)
     * [i386 手册勘误](others/i386-typo.md)
