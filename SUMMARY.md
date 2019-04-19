@@ -15,15 +15,15 @@
     * [1.2 表达式求值](pa1/1.2.md)
     * [1.3 监视点](pa1/1.3.md)
 * [PA2 - 冯诺依曼计算机]((pa2/README.md))
-    * 2.1 第一个程序
+    * [2.1 第一个程序](pa2/2.1.md)
     * 2.2 基本指令集
     * 2.3 输入输出
-* PA3 - 异常和分页机制
+* PA3 - 异常和分页
     * 3.1 异常控制流
     * 3.2 虚拟地址空间
 * PA4 - 分时多任务
     * 4.1 上下文切换
-    * 4.2 时钟驱动
+    * 4.2 时钟中断
 * [杂项](others/README.md)
     * [实验提交要求](others/submit-requirement.md)
     * [Git 入门教程](others/git-manual.md)
@@ -32,4 +32,3 @@
     * [Markdown 入门教程](others/markdown-manual.md)
     * [i386 手册勘误](others/i386-typo.md)
     * [软件推荐](others/software-suggest.md)
-
