@@ -20,7 +20,7 @@ git	checkout -b	pa1
 - 阶段1：构造寄存器、实现基本调试器的功能 - 2019/4/1 12:00:00
 - 阶段2：实现监视器的表达式求值功能、实现调试器的监视点功能 - 2019/4/15 12:00:00
 
-**提交说明**：[见这里](../others/submit-requirement.md )
+**提交说明**：[见这里](../others/submit-requirement.md)
 
 {% endpanel %}
 
