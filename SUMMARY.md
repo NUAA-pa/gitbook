@@ -1,9 +1,7 @@
 # Summary
 
 * [课程设计介绍](README.md)
-
 * [实验前必读](read-before-starting.md)
-
 * [PA0 - 开发环境配置](pa0/README.md)
     * [0.1 Installing a GNU/Linux VM](pa0/0.1.md)
     * [0.2 First Step into Linux](pa0/0.2.md)
@@ -12,17 +10,27 @@
     * [0.5 More Exploration](pa0/0.5.md)
     * [0.6 Logging in and Transferring Files via SSH](pa0/0.6.md)
     * [0.7 Acquiring Source Code for PAs](pa0/0.7.md)
-
 * [PA1 - 最简单的计算机](pa1/README.md)
-
+    * [1.1 简易调试器](pa1/1.1.md)
+    * [1.2 表达式求值](pa1/1.2.md)
+    * [1.3 监视点](pa1/1.3.md)
+* [PA2 - 冯诺依曼计算机](pa2/README.md)
+    * [2.1 第一个程序](pa2/2.1.md)
+    * 2.2 基本指令集
+    * 2.3 输入输出
+* PA3 - 异常和分页
+    * 3.1 异常控制流
+    * 3.2 虚拟地址空间
+* PA4 - 分时多任务
+    * 4.1 上下文切换
+    * 4.2 时钟中断
 * [杂项](others/README.md)
     * [实验提交要求](others/submit-requirement.md)
     * [Git 入门教程](others/git-manual.md)
     * [Linux 入门教程](others/linux-manual.md)
     * [Man 入门教程](others/man-manual.md)
     * [Markdown 入门教程](others/markdown-manual.md)
-
-    
-
-    
-
+    * [指令执行示例](others/instruction-example.md)
+    * [i386 手册阅读指南](others/how-to-read-i386.md)
+    * [i386 手册勘误](others/i386-typo.md)
+    * [软件推荐](others/software-suggest.md)
