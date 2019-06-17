@@ -23,7 +23,8 @@
     * [3.2 虚拟地址空间](pa3/3.2.md)
 * [PA4 - 分时多任务](pa4/README.md)
     * [4.1 上下文切换](pa4/4.1.md)
-    * 4.2 时钟中断
+    * [4.2 时钟中断](pa4/4.1.md)
+* [Lab3 - Cachesim](lab3.md)
 * [杂项](others/README.md)
     * [实验提交要求](others/submit-requirement.md)
     * [Git 入门教程](others/git-manual.md)
