@@ -29,13 +29,15 @@
 
 很多时候，你需要仔细阅读官方手册，以获得你想要获得的信息和答案。一个良好的开发生态环境中，文档是不可或缺的一部分，而作为一个合格的开发者，你需要的是养成阅读手册的良好习惯。以下列出了部分在本实验中可能会用到的手册（前三个手册请使用右键点击，并另存为到本地查看）：
 
-* [Intel 80386 Programmer's Reference Manual](docs/386intel.pdf) (人手一本的 i386 手册，会始终陪伴大家)
-* [System V ABI for i386](docs/abi386-4.pdf)
-* [C99 Standard](docs/C99.pdf)
-* [GCC 6.3.0 Manual](https://gcc.gnu.org/onlinedocs/gcc-6.3.0/gcc/)
-* [GDB User Manual](https://sourceware.org/gdb/current/onlinedocs/gdb/)
-* [GNU Make Manual](https://www.gnu.org/software/make/manual/make.html)
-* Online Manual Pager (即 `man`)
+* x86
+  * Intel 80386 Programmer's Reference Manual([PDF](docs/386intel.pdf))([HTML](https://nju-projectn.github.io/i386-manual/toc.htm)) (人手一本的 i386 手册，会始终陪伴大家)
+  * [System V ABI for i386](docs/abi386-4.pdf)
+* ISA 无关手册
+  * [C99 Standard](docs/C99.pdf)
+  * [GCC 6.3.0 Manual](https://gcc.gnu.org/onlinedocs/gcc-6.3.0/gcc/)
+  * [GDB User Manual](https://sourceware.org/gdb/current/onlinedocs/gdb/)
+  * [GNU Make Manual](https://www.gnu.org/software/make/manual/make.html)
+  * Online Manual Pager (即 `man`，[这里](others/man-manual.html)有一个入门教程)
 
 当你无法在手册中找到答案的时候，或者对手册内容抱有疑问的时候，当你决定向他人寻求帮助之前，请你务必**学会使用向搜索引擎提问**。
 
